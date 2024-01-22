@@ -24,10 +24,11 @@ double divide(double a, double b){
 
 
 int main (){
+    double pi = M_PI;
     cout << divide(3.4,0)<<endl;
     cout << multiply(3.4,5)<<endl;
     cout << sin(3.141528)<< endl;
-    cout << pow(7,3) <<endl;
+    cout << pow(1,pi) <<endl;
 
 
     return 0;
